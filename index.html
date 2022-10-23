@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Assignment</title>
+  <link href="index.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="card">
+
+      <h3>Register</h3>
+
+      <form>
+        <input type="text" placeholder="First Name" class="input-box" required />
+        <input type="text" placeholder="Last Name" class="input-box" required />
+        <input type="text" placeholder="Phone Number" class="input-box" required />
+        <input type="email" placeholder=" Your Email" id="email" class="input-box"
+          title="Email must contain @ and a number" required />
+      </form>
+
+        <div class="selector">
+          <label>Gender:</label><select>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+          <label>DOB:</label><select>
+            <input type="date" />
+          </select>
+          <label>Color:</label><select>
+            <option value='1' style="background: red;">Red</option>
+            <option value="2" style="background: yellow;">Yellow</option>
+            <option value=3 style="background: blue;">Blue
+            </option>
+            <option value="4" style="background: green;">Green</option>
+            <option value="5" style="background: brown;">Brown</option>
+          </select>
+        </div>
+
+        <button type="submit" class="btn" id="reg"><a href="success.html">Submit</a></button>
+        <p>Already have an account?<a href="login.html">Login</a></p>
+
+    </div>
+
+  </div>
